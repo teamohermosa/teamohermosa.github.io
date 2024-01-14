@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+:root{
+    --verde: #F2CD5E;
+    --oscuro: #453913;
+    
+    --blanco: #FFF;
+    --negro: #000000;
+    /*Fuente*/
+
+    --Poppins: 'Poppins', serif;
+
+    /*Font Sizes*/
+    --text: 12px;
+    --title: 16px;
+    --text-lg: 18px;
+    --text-md: 16px;
+}
+
+body{
+    background-color: var(--verde);
+    font-family: var(--Poppins);
+    text-align: center;
+    font-size: var(--text);
+    margin: 0 10vw;
+    color: var(--oscuro);
+}
+
+
+h1 {
+    font-size: var(--text-lg);
+    font-family: var(--Poppins);
+    font-weight: bold;
+}
+h2{
+    font-size: var(--title);
+    font-family: var(--Poppins);
+    font-weight: bold;
+}
+
+h3 {
+    font-size: var(--text-lg);
+    font-weight: normal;
+}
+p{
+    font-weight: 500;
+    font-size: var(--text-lg);
+}
+b{
+    color: #FFF;
+    font-weight: bolder;
+}
+#imageCarousel {
+    width: 80vw;
+    height: 90vw;
+    
+    overflow: hidden;
+    position: relative;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  #imageContainer {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carouselImage {
+    width: 90vw;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+.logoPrincipal{
+    display: flex; 
+    justify-content: center; 
+    background-color:none;
+    margin-top:20vh;
+    margin-bottom:50vh; 
+    position:relative; 
+    width: 90vw;
+}
+
+.section-principal {
+    width: full;
+
+}
+.section-individual{
+    width: full;
+    margin-top: 5vh;
+}
+.section-individual-v{
+    width: full;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.redes{
+    text-align: right;
+    font-size: smaller;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+.imagen-foto-a {
+    width: 75vw;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+
+}
+.imagen-foto-v {
+    width: 35vw;
+    height: 30vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    rotate: -5deg;
+}
+.imagen-pre{
+    width: 75vw;
+}
+
+.contenedor-lr{
+    margin: 3vh 0 ;
+    width: full;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forma-derecha{
+    position: absolute;
+    right: -20vw;
+    width: 40vw;
+    z-index: -1;
+
+}
+.forma-izquierda{
+    position: absolute;
+    left: -20vw;
+    width: 40vw;
+    z-index: -1;
+}
+.forma-derecha-onda{
+    position: absolute;
+    right: 5vw;
+    width: 5vw;
+    z-index: -1;
+
+}
+.forma-izquierda-onda{
+    position: absolute;
+    left: 5vw;
+    width: 5vw;
+    z-index: -1;
+}
+.forma-derecha-x{
+    position: absolute;
+    right: 5vw;
+    width: 15vw;
+    z-index: -1;
+
+}
+.forma-izquierda-x{
+    position: absolute;
+    left: 5vw;
+    width: 10vw;
+    z-index: -1;
+}
+.forma-derecha-p{
+    position: absolute;
+    right: -10vw;
+    width: 40vw;
+    z-index: -1;
+
+}
+.forma-izquierda-p{
+    position: absolute;
+    left: -10vw;
+    width: 40vw;
+    z-index: -1;
+}
+
